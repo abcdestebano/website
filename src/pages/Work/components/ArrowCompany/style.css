@@ -1,0 +1,38 @@
+.ArrowCompany-container-right {
+   animation: arrow-right 1s alternate ease-in-out infinite;
+   cursor: pointer;
+}
+
+.ArrowCompany-container-left {
+   animation: arrow-left 1s alternate ease-in-out infinite;
+   cursor: pointer;
+}
+
+.ArrowCompany-container-right img {
+   width: 4vh;
+   height: 4vh;
+}
+
+.ArrowCompany-container-left img {
+   transform: rotateY(180deg);
+   width: 4vh;
+   height: 4vh;
+}
+
+@keyframes arrow-right {
+   from {
+      right: 3%
+   }
+   to {
+      right: 5%
+   }
+}
+
+@keyframes arrow-left {
+   from {
+      left: 3%
+   }
+   to {
+      left: 5%
+   }
+}

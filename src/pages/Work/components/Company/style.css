@@ -1,0 +1,96 @@
+.Company-container {
+   position: absolute;
+   top: 18%;
+   left: 15%;
+   right: 10%;
+   padding: 2%;
+   border-radius: 5px;
+   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+   height: 65vh;
+}
+
+.Company-title {
+   color: white;
+   font-family: 'Raleway', sans-serif;
+   font-size: 1.2em;
+   font-weight: bold;
+}
+
+.Company-title h1 {
+   margin: 0;
+}
+
+.Company-role {
+   color: white;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 100;
+}
+
+.Company-description {
+   color: white;
+   font-size: 1.5em;
+   line-height: 1.4;
+   font-family: 'Raleway', sans-serif;
+   width: 70%;
+}
+
+.Company-technologies {
+   display: flex;
+}
+
+.Company-technologies .animated {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-right: 4%;
+}
+
+.Company-technologies #image-tech {
+   width: 4vh;
+   height: 4vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 50%;
+}
+
+.Company-technologies span {
+   font-size: 0.7em;
+   color: white;
+   margin-top: 5%;
+   font-weight: 100;
+}
+
+.Company-year {
+   font-size: 1em;
+   color: white;
+   margin-top: 2%;
+   display: flex;
+   flex-direction: column;
+}
+
+.Company-year span {
+   margin-top: 5px;
+}
+
+.Company-image {
+   position: absolute;
+   top: 25%;
+   right: 5%;
+}
+
+.Company-image img {
+   width: auto;
+   height: 20vh;
+   border-radius: 5px;
+   opacity: 1;
+}
+
+.Company-arrows {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   padding: 1% 2%;
+   display: flex;
+}

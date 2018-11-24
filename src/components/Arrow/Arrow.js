@@ -18,7 +18,9 @@ const Arrow = ({
                   ? <span>Hey, here is more about me!</span>
                   : pathname === '/about' && toRight
                      ? <span>Here are my works!</span>
-                     : <span>Come back to home</span>}
+                     : pathname === '/work'
+                        ? <span>Come back to about</span>
+                        : <span>Come back to home</span>}
             </Link>
          </Animated>
       </div>
