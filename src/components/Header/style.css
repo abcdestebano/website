@@ -1,0 +1,12 @@
+.Header {
+   padding: 3%;
+   padding-bottom: 0;
+   display: flex;
+   margin: 0 1%;
+   position: fixed;
+   z-index: 10;
+}
+
+.Border-check {
+   border: 1px solid yellow;
+}

@@ -1,0 +1,49 @@
+.ImageBackground-container {
+   position: absolute;
+   height: 100%;
+   right: -3%;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+}
+
+.ImageBackground {
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: inherit;
+   opacity: 0.3;
+   position: relative;
+}
+
+.ImageBackground-left {
+   position: absolute;
+   left: -12px;
+   height: 100%;
+   width: 30px;
+   top: -13px;
+   filter: blur(5px);
+   background: #00255a;
+}
+
+.ImageBackground-left-aux {
+   position: absolute;
+   left: -12px;
+   height: 103%;
+   width: 30px;
+   top: -13px;
+   -webkit-filter: blur(5px);
+   filter: blur(5px);
+   background: #002b66;
+}
+
+.ImageBackground-right {
+   position: absolute;
+   right: -12px;
+   height: 100%;
+   width: 30px;
+   top: -13px;
+   filter: blur(5px);
+   background: #00255a;
+}

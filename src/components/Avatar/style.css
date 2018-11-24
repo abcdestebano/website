@@ -1,0 +1,31 @@
+.Avatar {
+   width: 40px;
+   height: 40px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   border-radius: 50%;
+}
+
+.Avatar-line {
+   height: .25rem;
+   margin-bottom: 0;
+   background: tomato;
+   border: none;
+   animation: line 500ms ease-in-out forwards;
+}
+
+.Avatar-line-hide {
+   height: .25rem;
+   margin-bottom: 0;
+   border: none;
+}
+
+@keyframes line {
+   from {
+      width: 0%;
+   }
+   to {
+      width: 100%;
+   }
+}

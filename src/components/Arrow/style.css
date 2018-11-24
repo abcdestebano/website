@@ -1,0 +1,48 @@
+.Arrow-container {
+   position: absolute;
+   height: inherit;
+   display: flex;
+   align-items: center;
+}
+
+.Arrow-to-right {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   text-decoration: none;
+   font-family: 'Raleway', sans-serif;
+   animation: toRight 1s infinite ease-in-out alternate;
+}
+
+.Arrow-to-right img {
+   height: 5vh;
+   width: 5vh;
+}
+
+.Arrow-to-left {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   text-decoration: none;
+   font-family: 'Raleway', sans-serif;
+   animation: toRight 1s infinite ease-in-out alternate;
+}
+
+.Arrow-to-left img {
+   height: 5vh;
+   width: 5vh;
+   transform: rotate(180deg);
+}
+
+@keyframes toRight {
+   from {
+      transform: translateX(-10px);
+   }
+   to {
+      transform: translateX(10px)
+   }
+}

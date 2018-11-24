@@ -1,0 +1,46 @@
+.Links-container {
+   display: flex;
+   height: inherit;
+}
+
+.Link-container {
+   margin-left: 1em;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   padding-top: 10%;
+}
+
+.Links-link {
+   font-family: 'Raleway', sans-serif;
+   text-decoration: none;
+   color: white;
+   font-size: 1em;
+}
+
+.Link-active {
+   font-weight: bold;
+}
+
+.Link-line {
+   height: .25rem;
+   margin-bottom: 0;
+   background: tomato;
+   border: none;
+   animation: line 500ms ease-in-out forwards;
+}
+
+.Link-line-hide {
+   height: .25rem;
+   margin-bottom: 0;
+   border: none;
+}
+
+@keyframes line {
+   from {
+      width: 0%;
+   }
+   to {
+      width: 100%;
+   }
+}

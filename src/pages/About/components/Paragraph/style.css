@@ -1,0 +1,23 @@
+.Paragraph-container {
+   position: absolute;
+   color: white;
+   font-family: 'Raleway', sans-serif;
+   top: 30%;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   left: 15%;
+}
+
+.Paragraph-hi {
+   font-size: 3em;
+}
+
+.Paragraph-text-container {
+   margin: 10px 5px;
+}
+
+.Paragraph-text {
+   font-size: 1.6em;
+   line-height: 1.5;
+}

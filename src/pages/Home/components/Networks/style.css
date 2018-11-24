@@ -1,0 +1,21 @@
+.Networks-container {
+   position: absolute;
+   height: inherit;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   left: 3%;
+}
+
+.Networks-container img {
+   margin-bottom: 2em;
+   width: 4vh;
+   height: 4vh;
+   cursor: pointer;
+}
+
+.Networks-container img:hover {
+   transform: scale(1.2);
+   transition: 500ms;
+}
