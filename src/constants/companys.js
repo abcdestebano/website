@@ -35,7 +35,7 @@ export const COMPANYS = [
    {
       id: 2,
       name: 'Xtreme Visual',
-      image: 'https://bitbucket.org/juoiean/dashboard/raw/2cf440d476b25a44988a1768f5d2faae1b58c50f/src/assets/img/logo.jpg',
+      image: 'https://firebasestorage.googleapis.com/v0/b/xtream-visual.appspot.com/o/logo.jpg?alt=media&token=6b9531ec-c378-4c83-8933-5250ec58aea8',
       technologies: [{
          name: 'React',
          image: react
