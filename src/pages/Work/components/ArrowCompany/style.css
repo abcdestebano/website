@@ -1,11 +1,13 @@
 .ArrowCompany-container-right {
    animation: arrow-right 1s alternate ease-in-out infinite;
    cursor: pointer;
+   z-index: 10;
 }
 
 .ArrowCompany-container-left {
    animation: arrow-left 1s alternate ease-in-out infinite;
    cursor: pointer;
+   z-index: 10;
 }
 
 .ArrowCompany-container-right img {

@@ -19,3 +19,9 @@
    transform: scale(1.2);
    transition: 500ms;
 }
+
+@media only screen and (max-width: 500px) {
+   .Networks-container {
+      transform: scale(0.8);
+   }
+}

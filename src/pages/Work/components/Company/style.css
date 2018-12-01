@@ -94,3 +94,49 @@
    padding: 1% 2%;
    display: flex;
 }
+
+@media only screen and (max-width: 1000px) {
+   .Company-description {
+      width: 55%;
+      font-size: 1.2em;
+   }
+}
+
+@media only screen and (max-width: 800px) {
+   .Company-description {
+      width: 75%;
+   }
+}
+
+@media only screen and (max-width: 700px) {
+   .Company-image {
+      position: absolute;
+      top: 2%;
+      right: 5%;
+   }
+   .Company-image img {
+      height: 10vh;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+   .Company-container {
+      top: 10%;
+      height: 75vh;
+      left: 7%;
+      right: 7%;
+   }
+   .Company-title h1 {
+      width: 50%;
+   }
+   .Company-description {
+      width: 90%;
+      font-size: 1.1em;
+   }
+}
+
+@media only screen and (max-width: 320px) {
+   .Company-description {
+      font-size: 0.8em;
+   }
+}

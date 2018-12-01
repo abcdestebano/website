@@ -10,9 +10,9 @@ const Name = () => {
             <span>ESTEBAN</span>
          </Animated>
          <Animated animationIn="bounceInRight" isVisible={true}>
-            <span style={{ marginLeft: '25%' }}>ARAGÓN</span>
+            <span className="Name-Margin-Lastname">ARAGÓN</span>
          </Animated>
-         <Animated animationIn="fadeInUp" animationInDelay={1000}  isVisible={true}>
+         <Animated animationIn="fadeInUp" animationInDelay={1000} isVisible={true}>
             <p className="Name-profession">Fullstack Developer 👨‍💻</p>
          </Animated>
       </div>

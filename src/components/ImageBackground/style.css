@@ -47,3 +47,20 @@
    filter: blur(5px);
    background: #00255a;
 }
+
+@media only screen and (max-width: 500px) {
+   .ImageBackground-container {
+      right: 0;
+      left: 0;
+      width: 100% !important;
+   }
+   .ImageBackground-right {
+      display: none;
+   }
+   .ImageBackground-left {
+      display: none;
+   }
+   .ImageBackground-left-aux {
+      display: none;
+   }
+}
