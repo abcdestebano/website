@@ -7,13 +7,15 @@ import ionic from '../assets/technologies/ionic.png'
 import firebase from '../assets/technologies/firebase.png'
 import java from '../assets/technologies/java.png'
 import vue from '../assets/technologies/vue.png'
+import graphql from '../assets/technologies/graphql.png'
+import redux from '../assets/technologies/redux.png'
 
 
 export const COMPANYS = [
    {
-      id: 1,
-      name: 'Freelo',
-      image: 'https://firebasestorage.googleapis.com/v0/b/freelo-desarrollo.appspot.com/o/icon.png?alt=media&token=e1f545d0-0c8a-4210-93dc-1fb038e75a5c',
+      id: 0,
+      name: 'Token Sport',
+      image: 'https://firebasestorage.googleapis.com/v0/b/token-sport.appspot.com/o/teams%2FToken%20Sport?alt=media&token=493428dd-a577-4607-abed-9625956b25d5',
       technologies: [{
          name: 'React Native',
          image: reactNative
@@ -26,10 +28,38 @@ export const COMPANYS = [
       }, {
          name: 'MongoDB',
          image: mongo
+      }, {
+         name: 'GraphQL',
+         image: graphql
+      }],
+      year: 2018,
+      role: 'Fullstack Developer',
+      show: true,
+      description: 'I helped to create an architecture to the aplication creating backend with a scalable database also I developed a Dashboard which manage the app that  was created with React Native to have one development to both platforms like iOS and Android.'
+   },
+   {
+      id: 1,
+      name: 'Freelo',
+      image: 'https://firebasestorage.googleapis.com/v0/b/freelo-desarrollo.appspot.com/o/icon.png?alt=media&token=e1f545d0-0c8a-4210-93dc-1fb038e75a5c',
+      technologies: [{
+         name: 'React Native',
+         image: reactNative
+      }, {
+         name: 'React',
+         image: react
+      }, {
+         name: 'Redux',
+         image: redux
+      }, {
+         name: 'Node.js',
+         image: nodejs
+      }, {
+         name: 'MongoDB',
+         image: mongo
       }],
       year: 2018,
       role: 'Mobile developer',
-      show: true,
+      show: false,
       description: 'I create all the arquitecture of the app Freelo with technologies like React Native, Node.js and MongoDB, actually the app is published in each store of the platforms (iOS, Android). Also create a Dashboard to keep control of the app and i used React to create it.'
    },
    {
