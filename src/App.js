@@ -10,7 +10,7 @@ import configStore from './store';
 
 const initialState = {
   languageReducer: {
-    language: 'spanish'
+    language: 'english'
   }
 }
 
