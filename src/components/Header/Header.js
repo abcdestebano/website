@@ -6,6 +6,7 @@ import './style.css'
 // COMPONENTS
 import Avatar from '../Avatar/Avatar'
 import Links from '../Links/Links';
+import Language from '../Language/Language';
 
 const Header = ({
    pathname
@@ -17,6 +18,7 @@ const Header = ({
                <Avatar pathname={pathname} />
             </Link>
             <Links pathname={pathname} />
+            <Language />
          </div>
       </header>
    )

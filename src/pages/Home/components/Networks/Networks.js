@@ -1,6 +1,6 @@
 import React from 'react'
 import { Animated } from "react-animated-css";
-import facebook from '../../../../assets/facebook.svg';
+import envelope from '../../../../assets/envelope.svg';
 import github from '../../../../assets/github-logo.svg';
 import instagram from '../../../../assets/instagram.svg';
 import twitter from '../../../../assets/twitter.svg';
@@ -25,8 +25,8 @@ const Networks = () => {
             </a>
          </Animated>
          <Animated animationIn="flipInX" animationInDelay={2000} isVisible={true}>
-            <a href="https://www.facebook.com/aragonestebann" target="blank">
-               <img src={facebook} alt="Facebook" />
+            <a href="mailto:esteban.aragonm@gmail.com">
+               <img src={envelope} alt="Email" />
             </a>
          </Animated>
       </div>

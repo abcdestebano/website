@@ -1,14 +1,14 @@
-export const PERSONAL_SKILLS = [
+export const PERSONAL_SKILLS_ENGLISH = [
    {
-      name: 'Love',
+      name: 'Respect',
       time: 1500,
    },
    {
-      name: 'Faith',
+      name: 'Tolerance',
       time: 1800,
    },
    {
-      name: 'Gentleness',
+      name: 'Compromise',
       time: 2100,
    },
    {
@@ -20,4 +20,25 @@ export const PERSONAL_SKILLS = [
       time: 2700,
    },
 ]
-export const PROFESIONAL_SKILLS = ['']
+export const PERSONAL_SKILLS_SPANISH = [
+   {
+      name: 'Respeto',
+      time: 1500,
+   },
+   {
+      name: 'Tolerancia',
+      time: 1800,
+   },
+   {
+      name: 'Compromiso',
+      time: 2100,
+   },
+   {
+      name: 'Humildad',
+      time: 2400,
+   },
+   {
+      name: 'Responsabilidad',
+      time: 2700,
+   },
+]

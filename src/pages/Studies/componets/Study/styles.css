@@ -1,0 +1,72 @@
+.StudyTitleContainer {
+   display: flex;
+   align-items: center;
+}
+
+.StudyTitle {
+   margin-right: 20px;
+   color: white;
+   font-weight: bold;
+   font-size: 1.5em;
+   font-family: 'Raleway', sans-serif;
+}
+
+.StudyImage {
+   width: auto;
+   height: 5vh;
+   border-radius: 5px;
+}
+
+.StudyInfoContainer {
+   width: 70%;
+   color: white;
+   margin-top: 10px;
+}
+
+.StudyInfo {
+   line-height: 1.5;
+   color: white;
+   font-size: 1.1em;
+   line-height: 1.4;
+   font-family: 'Raleway', sans-serif;
+}
+
+.StudyCertificates {
+   margin-top: 20px;
+   overflow-x: scroll;
+   white-space: nowrap;
+   width: 80%;
+}
+
+.StudyImageCertificate {
+   height: 120px;
+   width: 160px;
+   margin-right: 20px;
+   cursor: pointer
+}
+
+@media only screen and (max-width: 1000px) {
+   .StudyInfo {
+      font-size: 1.2em;
+   }
+   .StudyContainer {
+      top: 12%;
+   }
+}
+
+@media only screen and (max-width: 700px) {}
+
+@media only screen and (max-width: 500px) {
+   .StudyInfo {
+      font-size: 1.1em;
+   }
+   .StudyContainer {
+      top: 11%;
+   }
+}
+
+@media only screen and (max-width: 320px) {
+   .StudyInfo {
+      font-size: 0.8em;
+   }
+}

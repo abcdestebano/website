@@ -8,7 +8,13 @@ const ImageBackground = ({
 }) => {
    return (
       <Animated animationIn="fadeIn" animationInDelay={300} animationOut="fadeOut" isVisible={true}>
-         <div style={pathname === '/' || pathname === '/work' ? { width: '53%' } : { width: '45%' }} className="ImageBackground-container">
+         <div
+            style={
+               pathname === '/' || pathname === '/work' || pathname === '/studies'
+                  ? { width: '53%' }
+                  : { width: '45%' }
+            }
+            className="ImageBackground-container">
             <div style={{ backgroundImage: `url(${image})` }} className="ImageBackground" >
                <div className={pathname === '/' ? 'ImageBackground-left' : 'ImageBackground-left-aux'}></div>
                <div className="ImageBackground-right"></div>

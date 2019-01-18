@@ -4,9 +4,23 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom'
 import Routes from './routes';
 
+// REDUX
+import { Provider } from 'react-redux'
+import configStore from './store';
+
+const initialState = {
+  languageReducer: {
+    language: 'spanish'
+  }
+}
+
+const store = configStore(initialState)
+
 const App = () => (
   <Router>
-    <Routes />
+    <Provider store={store}>
+      <Routes />
+    </Provider>
   </Router>
 )
 

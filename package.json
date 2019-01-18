@@ -4,18 +4,24 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
+    "express": "^4.16.4",
+    "firebase": "^5.7.3",
+    "lodash": "^4.17.11",
     "react": "^16.7.0-alpha.2",
     "react-animated-css": "^1.0.4",
     "react-dom": "^16.7.0-alpha.2",
+    "react-redux": "^6.0.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "server": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start": "node server.js"
   },
   "eslintConfig": {
     "extends": "react-app"

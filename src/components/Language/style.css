@@ -1,0 +1,12 @@
+.LanguageContianer {
+   position: absolute;
+   right: 10%;
+   bottom: 0;
+}
+
+.LanguageFlag {
+   width: 4vh;
+   height: 4vh;
+   cursor: pointer;
+   margin-right: 10px
+}

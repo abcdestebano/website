@@ -9,15 +9,18 @@ import image from '../../../../assets/image3.jpeg'
 import './style.css'
 
 const LayoutAbout = ({
-   pathname
+   pathname,
+   language
 }) => {
    return (
       <div className="LayoutAbout">
-         <Arrow pathname={pathname} toPage="/" toRight={false} />
+         <Arrow pathname={pathname} toPage="/" toRight={false}
+            text={language === 'spanish' ? "Volver a home" : "Come back to home"} />
          <ImageBackground pathname={pathname} image={image} />
-         <Paragraph />
-         <PersonalSkills />
-         <Arrow pathname={pathname} toPage="/work" toRight={true} />
+         <Paragraph language={language} />
+         <PersonalSkills language={language} />
+         <Arrow pathname={pathname} toPage="/work" toRight={true}
+            text={language === 'spanish' ? "Aquí están mis trabajos!" : "Here are my works!"} />
       </div>
    )
 }

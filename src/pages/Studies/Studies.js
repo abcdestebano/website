@@ -1,26 +1,24 @@
+
 import React from 'react'
 import { connect } from 'react-redux'
 
 // COMPONENTS
 import Header from '../../components/Header/Header';
 import Background from '../../components/Background/Background';
-import LayoutHome from './components/LayoutHome/LayoutHome';
+import LayoutStudies from './componets/LayoutStudies/LayoutStudies';
 
-
-const Home = ({
+const Studies = ({
    location,
    language
-}) => {
-   return (
-      <Background key="home">
+}) => (
+      <Background>
          <Header {...location} />
-         <LayoutHome language={language} pathname={location.pathname} />
+         <LayoutStudies language={language} pathname={location.pathname} />
       </Background>
    )
-}
 
 const mapStateToProps = ({ languageReducer }) => ({
    language: languageReducer.language
 })
 
-export default connect(mapStateToProps)(Home) 
+export default connect(mapStateToProps)(Studies) 

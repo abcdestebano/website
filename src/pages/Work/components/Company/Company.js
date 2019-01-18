@@ -6,7 +6,9 @@ import ArrowCompany from '../ArrowCompany/ArrowCompany';
 const Company = ({
    changeCompany,
    index,
-   company
+   company,
+   lengthCompanys,
+   language
 }) => {
    return (
       <div className="Company-container">
@@ -19,13 +21,13 @@ const Company = ({
             animationIn="bounceInLeft"
             animationInDelay={800}
             isVisible={true} >
-            <p>{company.role}</p>
+            <p>{language === 'spanish' ? company.roleSpanish : company.role}</p>
          </Animated>
          <Animated className="Company-description"
             animationIn="bounceInRight"
             animationInDelay={1200}
             isVisible={true} >
-            <p>{company.description}</p>
+            <p>{language === 'spanish' ? company.descriptionSpanish : company.description}</p>
          </Animated>
          <div className="Company-technologies">
             {
@@ -43,7 +45,7 @@ const Company = ({
             animationIn="bounceInLeft"
             animationInDelay={1800}
             isVisible={true} >
-            <span style={{ fontWeight: 'bold' }}>Year</span>
+            <span style={{ fontWeight: 'bold' }}> {language === 'spanish' ? 'Año' : 'Year'} </span>
             <span>{company.year}</span>
          </Animated>
 
@@ -62,7 +64,7 @@ const Company = ({
                   toRight={false} />
             }
             {
-               index !== 3 && <ArrowCompany
+               index !== lengthCompanys - 1 && <ArrowCompany
                   index={index}
                   changeCompany={changeCompany}
                   toRight={true} />

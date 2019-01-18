@@ -11,17 +11,19 @@ import Arrow from '../../../../components/Arrow/Arrow';
 import image from '../../../../assets/image.jpeg'
 
 const LayoutHome = ({
-   pathname
+   pathname,
+   language
 }) => {
    return (
       <div className="LayoutHome">
          <ImageBackground pathname={pathname} image={image} />
-         <Name />
+         <Name language={language} />
          <Networks />
          <Arrow
             toRight={true}
             toPage="/about"
-            pathname={pathname} />
+            pathname={pathname}
+            text={language === 'spanish' ? "Hey, aqui hay más sobre mi!" : "Hey, here is more about me!"} />
       </div>
    )
 }

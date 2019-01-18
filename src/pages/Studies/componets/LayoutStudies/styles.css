@@ -1,0 +1,23 @@
+.LayoutStudies {
+   height: 100vh;
+   margin: 0 1%;
+   position: relative;
+}
+
+.Studies {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   top: 20%;
+   padding-left: 15%;
+   width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+   .LayoutStudies {
+      margin: 0 0;
+   }
+   .Studies {
+      top: 12%;
+   }
+}
