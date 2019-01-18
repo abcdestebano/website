@@ -2,4 +2,4 @@
 
 Made with React.js
 
-## URL: https://esteban-aragon-crtvileeff.now.sh/
+## URL: https://esteban-aragon.herokuapp.com/
